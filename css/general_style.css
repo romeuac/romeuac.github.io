@@ -1,0 +1,319 @@
+body{
+    overflow: auto;
+    overflow-x: hidden;
+    padding-bottom: 0;
+}
+
+.featurette-divider {
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.timeline-body>ul>li {
+    list-style-type: disc;
+    margin-left: 25px;
+}
+
+
+/*  ======= NAV =============*/
+
+nav.navbar-transparente{
+    padding: 10px;
+    background: rgba(2, 31, 78, 0.8);
+    position: fixed;
+    color: rgba(255,255,255,.5);
+}
+
+.top-background{
+    width: 100%;
+    height: 59px;
+    background-color: rgba(2, 31, 78, 0.8);   
+}
+
+
+/* ======  Content  ================*/
+.First_Title{
+    text-align: center; 
+    margin-bottom: 65px;
+}
+
+.company-name{
+    font-weight: bold;
+    color: grey;
+    font-size: 1.2em;
+}
+
+.featurette{
+    margin-top: 30px;
+}
+
+/* ===========   CONNAISSANCES  ================*/
+h4.language{
+    display:inline;
+    padding: 0 10px 0 20px;
+}
+
+.status{
+    display: inline;
+    margin: auto;
+}
+
+.status-colored{
+    padding: 0 10px;
+    color: #32B92B;
+}
+
+.status-muted{
+    padding: 0 10px;
+    color: #898F88;
+}
+
+/* ===========   FORMATION  ================*/
+span.formation-title{
+    margin-bottom: 8.5rem;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.formationEnsta{
+    height: 400px;
+}
+
+
+/*------------  Carousel  ---------------*/
+.carousel .carousel-indicators li {
+    max-width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border-width: 10px;
+    border: 3px solid black;
+    /*background-color: rgba(180, 180, 180, 0.8);*/
+}
+
+.carousel-indicators .active {
+    background-color: rgba(2, 31, 78, 0.5);
+}
+
+.tales {
+  width: 100%;
+}
+.carousel-inner{
+  /* width:20%; */
+  /* max-height: 400px !important; */
+  width: 75%;  
+  /* height: 500px!important; */
+
+  margin: auto;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+    text-align: center!important;
+}
+
+.carousel-item{
+    background-color: white;
+    margin: auto;
+}
+
+.carousel-item > div > img {
+  /* width: auto! important;  */
+  /* height: 100%!important; */
+  min-width: auto;
+  margin: 0 auto;
+  display: initial;
+  max-width: 100%;
+  /* height: -webkit-fill-available; */
+  height: inherit;
+}
+
+.inner-item {
+    text-align: center;
+}
+
+.carousel-caption {
+    bottom: 0!important;
+}
+
+
+/*============  footer  ==============*/
+.footer-style{
+    margin: 0px 10px 0;
+    padding-bottom:3rem;
+    /*background-color: white;*/
+}
+
+.social-network{
+    float: right;
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    background: transparent;
+}
+
+#timeheader {
+    margin-top:3rem;
+}
+
+
+/*----------------  Media Queries  --------------------*/
+@media only screen and (max-width: 575px) {
+    .grad1 {
+        background-color: white;
+    } 
+
+    #footer-icons{
+        /*padding: auto;*/
+        /*display: block;*/
+        /*margin:auto;*/
+        margin:10px auto;
+        margin-bottom: 20px;
+        display: inline-grid;
+        /*text-align: center;*/
+    }
+
+    .footer-icons{
+        display:inline;
+        /*margin:auto;*/
+        /*text-align: center;*/
+    }
+
+    #footer-message{
+        margin:auto; 
+        text-align: center;
+    }
+
+     .carousel-inner, .carousel-item{
+        width: 100%;  
+        /* height: 300px!important; */
+
+        max-height: 200px!important;
+    } 
+
+    .carousel-item > div > img {
+        max-height: 200px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .grad1 {
+        background-color: white;
+    } 
+
+    #footer-icons{
+        /*padding: auto;*/
+        /*display: block;*/
+        /*margin:auto;*/
+        margin:10px auto;
+        margin-bottom: 20px;
+        display: inline-grid;
+        /*text-align: center;*/
+    }
+
+    .footer-icons{
+        display:inline;
+        /*margin:auto;*/
+        /*text-align: center;*/
+    }
+
+    #footer-message{
+        margin:auto; 
+        text-align: center;
+    }
+
+    .carousel-inner, .carousel-item{
+        width: 100%;  
+        /* height: 300px!important; */
+
+        max-height: 400px!important;
+    } 
+
+    .carousel-item > div > img {
+        max-height: 400px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .grad1 {
+        /* For Safari 5.1 to 6.0 */
+        background: -webkit-linear-gradient(to right, white 63%, rgba(2, 31, 78, 0.5), white 66%);
+        /* For Opera 11.1 to 12.0 */
+        background: -o-linear-gradient(to right, white 63%, rgba(2, 31, 78, 0.5), white 66%);
+        /*For Firefox 3.6 to 15 */
+        background: -moz-linear-gradient(to right, white 63%, rgba(2, 31, 78, 0.5), white 66%);  
+        /* Standard syntax (must be last) */
+        background: linear-gradient(to right, white 63%, rgba(2, 31, 78, 0.5), white 66%);
+    } 
+
+    #footer-icons{
+        float: left;
+        margin:10px auto;
+    }
+
+    #footer-message{
+        margin:auto; 
+        text-align: right;
+    }
+
+     .carousel-inner, .carousel-item{
+        width: 100%;  
+        /* height: 500px!important; */
+        max-height: 500px!important;
+    } 
+
+    .carousel-item > div > img {
+        max-height: 500px;
+    }
+
+
+}
+
+ @media only screen and (min-width: 992px) {
+    
+    .grad1 {
+        /* For Safari 5.1 to 6.0 */
+        background: -webkit-linear-gradient(to right, white 63%, rgba(2, 31, 78, 0.5), white 66%);
+        /* For Opera 11.1 to 12.0 */
+        background: -o-linear-gradient(to right, white 63%, rgba(2, 31, 78, 0.5), white 66%);
+        /*For Firefox 3.6 to 15 */
+        background: -moz-linear-gradient(to right, white 63%, rgba(2, 31, 78, 0.5), white 66%);  
+        /* Standard syntax (must be last) */
+        background: linear-gradient(to right, white 63%, rgba(2, 31, 78, 0.5), white 66%);
+    } 
+
+    #footer-icons{
+        float: left;
+        margin:10px auto;
+    }
+
+    #footer-message{
+        margin:auto; 
+        text-align: right;
+    }
+
+    .carousel-inner, .carousel-item{
+        width: 100%;  
+        height: 500px!important;
+    } 
+
+    .carousel-item > div > img {
+        max-height: 500px;
+    }
+
+    #footer-icons{
+        float: left;
+        margin:10px auto;
+    }
+
+} 
+
+
+/*-----------------  TYPOGRAPHY  ----------------*/
+
